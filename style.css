@@ -1,0 +1,45 @@
+body{
+  background-color: #000000;
+}
+
+main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1,p{
+  text-align: center;
+  color: #ffffff;
+  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 6em;
+	font-variant: small-caps;
+	font-weight: bold;
+	margin: 0.1em;
+}
+
+div.logoRow{
+  text-align:center;
+	margin-top: 5em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.socialIcon {
+  padding: 1em;
+  height: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.2s;
+}
+
+.socialIcon:hover {
+  padding: 1em;
+  transform: translateY(-50%) scale(1.2);
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
