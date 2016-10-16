@@ -9,7 +9,7 @@ main{
   transform: translate(-50%, -50%);
 }
 
-h1,p{
+h1{
   text-align: center;
   color: #ffffff;
   font-family: Copperplate / Copperplate Gothic Light, sans-serif;
@@ -42,4 +42,19 @@ a{
   transform: translateY(-50%) scale(1.2);
   border-radius: 50%;
   box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+main:hover {
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 1em 1.2em 1.4em #ffffff;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 1em 1.2em 1.4em #ffffff;}
 }
