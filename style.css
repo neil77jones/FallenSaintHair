@@ -9,19 +9,16 @@ main{
   transform: translate(-50%, -50%);
 }
 
-h1{
-  text-align: center;
-  color: #ffffff;
-  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
-	font-size: 6em;
-	font-variant: small-caps;
-	font-weight: bold;
-	margin: 0.1em;
+img#banner{
+  max-width: 100%;
+  height: auto;
+  position: center;
+  margin: 0.1em;
 }
 
 div.logoRow{
   text-align: center;
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 a{
@@ -32,9 +29,7 @@ a{
 
 .socialIcon {
   padding: 1em;
-  height: 50%;
   position: relative;
-  top: 50%;
   transition: transform 0.2s;
 }
 
