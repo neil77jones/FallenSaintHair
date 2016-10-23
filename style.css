@@ -31,7 +31,6 @@ div.logoRow {
 
 .socialIcon:hover {
   transform: scale(1.2);
-  
 }
 
 a {
@@ -42,7 +41,7 @@ a {
 p {
   text-align: center;
   color: #ffffff;
-  font-family: ;
+  font-family: serif;
   font-size: 1.3em;
 }
 
@@ -53,6 +52,6 @@ footer {
 }
 
 footer a {
-  font-family: 'Fira Mono', monospace;
+  font-family: monospace;
   color: #000000;
 }
