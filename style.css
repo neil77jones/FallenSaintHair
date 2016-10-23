@@ -1,45 +1,58 @@
-body{
+body {
   background-color: #000000;
 }
 
-main{
+main {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-img#banner{
+img#imgBanner {
   max-width: 100%;
   height: auto;
   position: center;
   margin: 0.1em;
 }
 
-div.logoRow{
+div.logoRow {
   text-align: center;
   margin-top: 2em;
-}
-
-a{
-  text-decoration: none;
-  font-family: 'Fira Mono', monospace;
-  color: #000000;
+  margin-bottom: 3em;
 }
 
 .socialIcon {
   padding: 1em;
   position: relative;
-  transition: transform 0.2s;
+  transition: transform 0.4s;
+  backface-visibility: hidden;
 }
 
 .socialIcon:hover {
-  padding: 1em;
   transform: scale(1.2);
+  
 }
 
-footer{
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+p {
+  text-align: center;
+  color: #ffffff;
+  font-family: ;
+  font-size: 1.3em;
+}
+
+footer {
   position: fixed;
   right: 0;
   bottom: 0;
+}
+
+footer a {
+  font-family: 'Fira Mono', monospace;
+  color: #000000;
 }
